@@ -1,7 +1,7 @@
 //START-OF-SCRIPT
 node {
-    def JIRA_SITE_NAME = 'jira'
-    def JIRA_PROJ_NAME = 'SKYNET'
+    def JIRA_SITE_NAME = '54.172.153.41'
+    def JIRA_PROJ_NAME = 'MIAIA'
     
     def GRADLE_HOME = tool name: 'gradle-4.10.2', type: 'hudson.plugins.gradle.GradleInstallation'
     def REPO_URL = 'https://github.com/cloudacademy/devops-webapp.git'
