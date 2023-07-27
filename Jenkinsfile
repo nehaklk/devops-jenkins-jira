@@ -1,6 +1,6 @@
 //START-OF-SCRIPT
 node {
-    def JIRA_SITE_NAME = '54.172.153.41'
+    def JIRA_SITE_NAME = '54.146.52.103'
     def JIRA_PROJ_NAME = 'MIAIA'
     
     def GRADLE_HOME = tool name: 'gradle-4.10.2', type: 'hudson.plugins.gradle.GradleInstallation'
