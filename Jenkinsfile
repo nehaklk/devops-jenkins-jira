@@ -13,7 +13,7 @@ node {
 
     stage('Build') {
         sh "${GRADLE_HOME}/bin/gradle build --info 2>&1 | tee gradle.build.${BUILD_NUMBER}.log"
-        sh "ls -la build/libs/*.war"
+        #sh "ls -la build/libs/*.war"
     }
 
     stage('Raise JiraIssue') {
